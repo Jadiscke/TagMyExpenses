@@ -1,0 +1,26 @@
+{
+  "name": "@tagmyexpenses/utils",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.11.174",
+    "tesseract.js": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tagmyexpenses/eslint-config": "workspace:*",
+    "@tagmyexpenses/tsconfig": "workspace:*",
+    "@types/node": "^20.11.0",
+    "@types/pdf-parse": "^1.1.4",
+    "typescript": "^5.3.3"
+  }
+}
+
